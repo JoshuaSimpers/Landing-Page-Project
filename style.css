@@ -17,6 +17,12 @@ body
     background-color: #1f2937;
 }
 
+.secondary-text
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .title
 {
     font-size: 48px;
