@@ -9,13 +9,15 @@ body
     align-items: center;
     background-color: #1f2937;
     justify-content: space-between;
-    padding: 16px 32px;
+    padding: 16px 64px;
 }
 
 .hero
 {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    padding: 64px;
 }
 
 .section-one
@@ -30,8 +32,8 @@ body
 
 .image
 {
-    display: flex;
-    flex-direction: row;
+    background-color: gray;
+    padding: 64px;
 }
 
 .secondary-text
