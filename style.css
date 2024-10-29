@@ -109,3 +109,8 @@ button
     flex-direction: column;
     max-width: 200px;
 }
+
+.quote
+{
+    font-size: 36px;
+}
