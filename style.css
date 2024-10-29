@@ -5,13 +5,18 @@ body
     flex-direction: column;
 }
 
-
+/*shared settings between multiple classes*/
+.header,
+.hero,
+.footer
+{
+    background-color: #1f2937;
+}
 /*header and hero css starts*/
 .header
 {
     display: flex;
     align-items: flex-start;
-    background-color: #1f2937;
     justify-content: space-between;
     padding: 16px 64px;
 }
@@ -45,7 +50,6 @@ a
 
 .hero
 {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding: 64px;
@@ -200,7 +204,6 @@ button
 .footer
 {
     display: flex;
-    background-color: #1f2937;
     color: #f9faf8;
     align-content: center;
     justify-content: center;
