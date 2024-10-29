@@ -187,3 +187,8 @@ button
     justify-content: center;
     padding: 24px;
 }
+.page-content
+{
+    display: flex;
+    flex-direction: column;
+}
