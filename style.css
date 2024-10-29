@@ -140,6 +140,8 @@ button
     max-width: 1000px;
     max-height: 200px;
     justify-content: space-between;
+    padding: 24px 48px;
+    border-radius: 8px;
 }
 
 .text
