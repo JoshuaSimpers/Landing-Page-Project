@@ -136,4 +136,6 @@ button
 {
     display: flex;
     background-color: #3882f6;
+    max-width: 1000px;
+    max-height: 200px;
 }
