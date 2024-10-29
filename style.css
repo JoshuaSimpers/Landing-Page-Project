@@ -131,3 +131,8 @@ button
     font-size: 24px;
     font-weight: 900;
 }
+
+.modal
+{
+    display: flex;
+}
