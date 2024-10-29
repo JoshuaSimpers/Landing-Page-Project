@@ -90,6 +90,7 @@ button
 {
     display: flex;
     justify-content: center;
+    gap: 64px;
 }
 
 .square
@@ -100,4 +101,11 @@ button
     border-radius: 8px;
     border-width: 3px;
     border-style: solid;
+}
+
+.info-square
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
 }
