@@ -116,11 +116,9 @@ button
 {
     border: 0;
 }
-
 /*header and hero css ends*/
 
 /*content section begins*/
-
 .page-content
 {
     flex-direction: column;
