@@ -120,6 +120,7 @@ button
     flex-direction: column;
     background-color: #e5e7eb;
     align-items: center;
+    padding: 64px 256px;
 }
 
 .signature
