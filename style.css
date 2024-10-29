@@ -166,3 +166,10 @@ button
     border-color: #f9faf8;
     border-width: 1;
 }
+
+.button-one
+{
+    border: 0;
+    border-style: solid;
+    border-color: #3882f6;
+}
