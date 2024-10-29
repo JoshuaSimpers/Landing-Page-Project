@@ -78,7 +78,13 @@ button
     border-radius: 8px;
 }
 
-.information
+.information-title
+{
+    display: flex;
+    justify-content: center;
+}
+
+.information-pieces
 {
     display: flex;
     justify-content: center;
