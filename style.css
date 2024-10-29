@@ -144,3 +144,9 @@ button
 {
     color: #f9faf8;
 }
+
+.modal-title
+{
+    font-size: 24px;
+    font-weight: 900;
+}
