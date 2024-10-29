@@ -6,31 +6,68 @@ body
 }
 
 /*shared settings between multiple classes*/
-.header,
-.hero,
-.footer
+.header, .hero, .footer
 {
     background-color: #1f2937;
 }
+
+.logo, .title, .text, button, .footer
+{
+    color: #f9faf8;
+}
+
+.logo, .signature, .modal-title
+{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+a, .image, .secondary-text, .subtext, button
+{
+    color: #e5e7eb;
+}
+
+a, .secondary-text
+{
+    font-size: 18px;
+}
+
+.title, .information-title
+{
+    font-weight: 900;
+}
+
+.quote, .subtext
+{
+    font-weight: lighter;
+}
+
+button, .modal
+{
+    background-color: #3882f6;
+}
+
+button, .square, .modal
+{
+    border-radius: 8px;
+}
+
+.header, .links, .hero, .page-content, .information-title, .information-pieces, .info-square, .quote, .signature, .modal, .footer
+{
+    display: flex;
+}
+/*shared settings ends*/
+
 /*header and hero css starts*/
 .header
 {
-    display: flex;
     align-items: flex-start;
     justify-content: space-between;
     padding: 16px 64px;
 }
 
-.logo
-{
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 900;
-}
-
 .links
 {
-    display: flex;
     gap: 16px;
 }
 
@@ -44,13 +81,10 @@ ul
 a
 {
     text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 .hero
 {
-    display: flex;
     justify-content: space-between;
     padding: 64px;
     gap: 48px;
@@ -59,44 +93,30 @@ a
 .image
 {
     background-color: gray;
-    color: #e5e7eb;
     padding: 64px;
-}
-
-.secondary-text
-{
-    font-size: 18px;
-    color: #e5e7eb;
 }
 
 .title
 {
     font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
 }
 
 button
 {
-    background-color: #3882f6;
-    color: #f9faf8;
     padding: 6px 16px;
-    border-radius: 8px;
 }
 
 .button-one
 {
     border: 0;
-    border-style: solid;
-    border-color: #3882f6;
 }
+
 /*header and hero css ends*/
 
 /*content section begins*/
 
 .page-content
 {
-    display: flex;
     flex-direction: column;
     gap: 64px;
 }
@@ -104,16 +124,13 @@ button
 /*information section within the content begins*/
 .information-title
 {
-    display: flex;
     justify-content: center;
     font-size: 36px;
-    font-weight: 900;
     padding: 24px;
 }
 
 .information-pieces
 {
-    display: flex;
     justify-content: center;
     gap: 64px;
 }
@@ -123,14 +140,12 @@ button
     width: 200px;
     height: 200px;
     border-color: #3882f6;
-    border-radius: 8px;
     border-width: 3px;
     border-style: solid;
 }
 
 .info-square
 {
-    display: flex;
     flex-direction: column;
     max-width: 200px;
 }
@@ -141,9 +156,7 @@ button
 {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
     color: #1f2937;
-    display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
     align-items: center;
@@ -152,44 +165,21 @@ button
 
 .signature
 {
-    display: flex;
     align-self: flex-end;
     font-style: normal;
-    font-size: 24px;
-    font-weight: 900;
 }
 /*quote section within the content ends*/
 
 /*modal section within the content begins*/
 .modal
 {
-    display: flex;
-    background-color: #3882f6;
     max-width: 1000px;
     max-height: 200px;
     justify-content: space-between;
     padding: 24px 48px;
-    border-radius: 8px;
     align-items: center;
     gap: 64px;
     align-self: center;
-}
-
-.text
-{
-    color: #f9faf8;
-}
-
-.modal-title
-{
-    font-size: 24px;
-    font-weight: 900;
-}
-
-.subtext
-{
-    color: #e5e7eb;
-    font-weight: lighter;
 }
 
 .button-two
@@ -203,8 +193,6 @@ button
 /*footer section within the content begins*/
 .footer
 {
-    display: flex;
-    color: #f9faf8;
     align-content: center;
     justify-content: center;
     padding: 24px;
