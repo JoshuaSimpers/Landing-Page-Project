@@ -135,4 +135,5 @@ button
 .modal
 {
     display: flex;
+    background-color: #3882f6;
 }
