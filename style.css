@@ -91,3 +91,13 @@ button
     display: flex;
     justify-content: center;
 }
+
+.square
+{
+    width: 200px;
+    height: 200px;
+    border-color: #3882f6;
+    border-radius: 8px;
+    border-width: 3px;
+    border-style: solid;
+}
