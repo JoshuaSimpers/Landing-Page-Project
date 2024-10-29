@@ -5,6 +5,8 @@ body
     flex-direction: column;
 }
 
+
+/*header and hero css starts*/
 .header
 {
     display: flex;
@@ -12,6 +14,33 @@ body
     background-color: #1f2937;
     justify-content: space-between;
     padding: 16px 64px;
+}
+
+.logo
+{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.links
+{
+    display: flex;
+    gap: 16px;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero
@@ -43,33 +72,6 @@ body
     color: #f9faf8;
 }
 
-.logo
-{
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 900;
-}
-
-.links
-{
-    display: flex;
-    gap: 16px;
-}
-
-ul
-{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-a
-{
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
 button
 {
     background-color: #3882f6;
@@ -78,6 +80,24 @@ button
     border-radius: 8px;
 }
 
+.button-one
+{
+    border: 0;
+    border-style: solid;
+    border-color: #3882f6;
+}
+/*header and hero css ends*/
+
+/*content section begins*/
+
+.page-content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+/*information section within the content begins*/
 .information-title
 {
     display: flex;
@@ -110,7 +130,9 @@ button
     flex-direction: column;
     max-width: 200px;
 }
+/*information section within the content ends*/
 
+/*quote section within the content begins*/
 .quote
 {
     font-size: 36px;
@@ -132,7 +154,9 @@ button
     font-size: 24px;
     font-weight: 900;
 }
+/*quote section within the content ends*/
 
+/*modal section within the content begins*/
 .modal
 {
     display: flex;
@@ -170,14 +194,9 @@ button
     border-color: #f9faf8;
     border-width: 1;
 }
+/*modal section within the content ends*/
 
-.button-one
-{
-    border: 0;
-    border-style: solid;
-    border-color: #3882f6;
-}
-
+/*footer section within the content begins*/
 .footer
 {
     display: flex;
@@ -188,9 +207,5 @@ button
     padding: 24px;
     align-items: flex-end;
 }
-.page-content
-{
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-}
+/*footer section within the content ends*/
+/*content section ends*/
