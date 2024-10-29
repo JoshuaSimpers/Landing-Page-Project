@@ -150,3 +150,8 @@ button
     font-size: 24px;
     font-weight: 900;
 }
+
+.subtext
+{
+    color: #e5e7eb;
+}
